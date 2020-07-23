@@ -9,15 +9,17 @@ const assertEqual = function(actual, expected) {
 
 const eqArrays = function(arrayOne, arrayTwo) {
   let TrueOrFalse = '';
-  for (let i = 0; i < arrayOne.length; i++) {
-    let index = i;
-    if (arrayOne[i] === arrayTwo[index]) {
+  if (arrayOne.length < 1 && arrayTwo.length < 1){
+    return true
+  }
+  const longestArray = arrayOne.length > arrayTwo.length ? arrayOne : arrayTwo;
+  for (let i = 0; i < longestArray.length; i++) {
+    if (arrayOne[i] === arrayTwo[i]) {
+      //console.log('index is :' + i, 'one: ' + arrayOne[i], 'two: ' + arrayTwo[i])
       TrueOrFalse = true;
-    }	else {
+    } else {
       return false;
     }
-  } return TrueOrFalse;
+  } return TrueOrFalse
 };
-
-
 

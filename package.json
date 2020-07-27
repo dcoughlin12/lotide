@@ -1,0 +1,29 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "eslint": "^7.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcoughlin12/lotide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcoughlin12/lotide/issues"
+  },
+  "homepage": "https://github.com/dcoughlin12/lotide#readme"
+}

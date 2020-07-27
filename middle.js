@@ -8,7 +8,6 @@ check length / 2
   if number % 1 === 0   push array[middleIndex]
     else  push middleIndex - 0.5
           AND push middleIndex + 0.5
-
 */
 
 const middle = function(array) {

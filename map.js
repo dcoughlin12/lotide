@@ -8,8 +8,10 @@ const map = function(array, callback) {
   return results;
 };
 
-const results1 = map(words, word => word.length);
-console.log(results1);
+module.exports = map
+
+// console.log(map(words, word => word.length));
+
 
 
 

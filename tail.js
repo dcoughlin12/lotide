@@ -8,5 +8,5 @@ const tail = function(array) {
 
 module.exports = tail
 
-console.log(tail([1]))
+// console.log(tail([1]))
 

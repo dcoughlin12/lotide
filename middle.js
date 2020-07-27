@@ -1,5 +1,5 @@
-const eqArrays = require('./eqArrays');
-const assertArraysEqual = require('./assertArraysEqual');
+// const eqArrays = require('./eqArrays');
+// const assertArraysEqual = require('./assertArraysEqual');
 
 /*given Array if numbers
 make empty array to push results to
@@ -13,7 +13,6 @@ check length / 2
 const middle = function(array) {
   let returnMiddleNum = [];
   let middleIndex = (array.length - 1) / 2;
-  //console.log(middleIndex)
   if (middleIndex < 1) {
     return returnMiddleNum;
   } else if (!Number.isInteger(middleIndex)) {
@@ -25,7 +24,10 @@ const middle = function(array) {
   }
 };
 
+
 module.exports = middle;
+
+
  
 
 

@@ -16,21 +16,20 @@ const flatten = require('./flatten');
 const without = require('./without');
 
 module.exports = {
-	head: head, 
-	tail: tail, 
-	middle: middle,
-	assertArraysEqual: assertArraysEqual,
-	assertEqual: assertEqual,
-	assertObjectEqual: assertObjectEqual,
-	countLetters: countLetters, 
-	countOnly: countOnly,
-	letterPositions: letterPositions,
-	map: map,
-	reverse: reverse,
-	takeUntil: takeUntil,
-	findKey: findKey,
-	findKeyByValue: findKeyByValue,
-	flatten: flatten,
-	without: without
-
+	head, 
+	tail, 
+	middle,
+	assertArraysEqual,
+	assertEqual,
+	assertObjectEqual,
+	countLetters,
+	countOnly,
+	letterPositions,
+	map,
+	reverse,
+	takeUntil,
+	findKey,
+	findKeyByValue,
+	flatten,
+	without
 };

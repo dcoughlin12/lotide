@@ -1,25 +1,5 @@
-const eqArrays = function(arrayOne, arrayTwo) {
-  let TrueOrFalse = '';
-  if (arrayOne.length < 1 && arrayTwo.length < 1) {
-    return true;
-  }
-  for (let i = 0; i < arrayOne.length; i++) {
-    let index = i;
-    if (arrayOne[i] === arrayTwo[index]) {
-      TrueOrFalse = true;
-    } else {
-      return false;
-    }
-  } return TrueOrFalse;
-};
-
-const assertArraysEqual = function(firstArr, secondArr) {
-  if (firstArr.length === secondArr.length && eqArrays(firstArr, secondArr)) {
-    console.log(`✅✅✅ Assertion Passed: ${firstArr} === ${secondArr}`);
-  } else {
-    console.log(`❌❌❌ Assertion Failed: ${firstArr} !== ${secondArr}`);
-  }
-};
+const eqArrays = require('./eqArrays');
+const assertArraysEqual = require('./assertArraysEqual');
 
 /*given Array if numbers
 make empty array to push results to
@@ -46,12 +26,7 @@ const middle = function(array) {
   }
 };
 
-// assertArraysEqual(middle([1]), [])
-// assertArraysEqual(middle([1, 2]), [])
-// assertArraysEqual(middle([1, 2, 3]), [2])
-// assertArraysEqual(middle([1, 2, 3, 4, 5]), [3])
-// assertArraysEqual(middle([1, 2, 3, 4]), [2, 3])
-// assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4])
+module.exports = middle;
  
 
 

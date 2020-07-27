@@ -14,4 +14,4 @@ const letterPositions = function(sentence) {
 
 module.exports = letterPositions;
 
-// console.log(letterPositions('lighthouse in the house'));
+console.log(letterPositions('lighthouse in the house'));

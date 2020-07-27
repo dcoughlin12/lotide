@@ -14,3 +14,5 @@ const reverse = function(string) {
 };
 
 module.exports = reverse
+
+console.log(reverse('hello there'))

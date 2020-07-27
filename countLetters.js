@@ -21,4 +21,4 @@ const countLetters = function(string) {
   } console.log(resultObject);
 };
 
-countLetters('lighthouse Labs');
+countLetters('lighthouse in the house');

@@ -44,16 +44,16 @@ const assertObjectEqual = function(actual, expected) {
   }
 };
 let obj1 = {
-  a: 1, 
-  b: 2, 
+  a: 1,
+  b: 2,
   c: 3
-}
+};
 let obj2 = {
-  a: 1, 
-  b: 2, 
+  a: 1,
+  b: 2,
   c: 3,
-}
-assertObjectEqual(obj1, obj2)
+};
+assertObjectEqual(obj1, obj2);
 
 
 

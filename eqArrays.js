@@ -23,3 +23,5 @@ const eqArrays = function(arrayOne, arrayTwo) {
   } return TrueOrFalse
 };
 
+assertEqual(eqArrays([1, 2, 3], [1, 2, 3, 4]), true)
+

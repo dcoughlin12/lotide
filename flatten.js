@@ -1,10 +1,13 @@
 const eqArrays = function(arrayOne, arrayTwo) {
   let TrueOrFalse = '';
+  if (arrayOne.length < 1 && arrayTwo.length < 1){
+    return true
+  }
   for (let i = 0; i < arrayOne.length; i++) {
     let index = i;
     if (arrayOne[i] === arrayTwo[index]) {
       TrueOrFalse = true;
-    }	else {
+    } else {
       return false;
     }
   } return TrueOrFalse;
@@ -12,7 +15,7 @@ const eqArrays = function(arrayOne, arrayTwo) {
 
 
 const assertArraysEqual = function(firstArr, secondArr) {
-  if (eqArrays(firstArr, secondArr) === true) {
+  if (firstArr.length === secondArr.length && eqArrays(firstArr, secondArr)) {
     console.log(`✅✅✅ Assertion Passed: ${firstArr} === ${secondArr}`);
   } else {
     console.log(`❌❌❌ Assertion Failed: ${firstArr} !== ${secondArr}`);

@@ -1,4 +1,4 @@
-// const assertEqual = require('./assertEqual');
+const assertEqual = require('./assertEqual');
 
 //return how many instances of each string were found in the allItems array of strings
 
@@ -28,6 +28,8 @@ module.exports = countOnly;
 //   "Fang",
 //   "Joe"
 // ];
+
+// console.log(countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true }))
 // const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true });
 
 // assertEqual(result1["Jason"], 1);

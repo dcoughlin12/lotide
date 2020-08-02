@@ -10,7 +10,7 @@ const map = function(array, callback) {
 
 module.exports = map
 
-// console.log(map(words, word => word.length));
+console.log(map(words, word => word.length));
 
 
 
